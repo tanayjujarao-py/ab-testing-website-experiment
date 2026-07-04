@@ -102,6 +102,48 @@ Both Device and Location distributions were statistically similar across the Con
 
 ---
 
+# 📈 Visualizations
+
+## 1. Conversion Rate Comparison
+
+The treatment group achieved a substantially higher conversion rate than the control group.
+
+![Conversion Rate](images/conversion_rate.png)
+
+---
+
+## 2. Average Time Spent
+
+The average time spent was similar across both groups, indicating that the new background color did not significantly affect user engagement.
+
+![Time Spent](images/time_spent.png)
+
+---
+
+## 3. Average Page Views
+
+The number of page views remained comparable between the control and treatment groups.
+
+![Page Views](images/page_views.png)
+
+---
+
+## 4. Device Distribution
+
+The distribution of device types was balanced across both groups, supporting successful randomization.
+
+![Device Distribution](images/device_distribution.png)
+
+---
+
+## 5. Location Distribution
+
+User locations were similarly distributed across the control and treatment groups, indicating no evidence of location bias.
+
+![Location Distribution](images/location_distribution.png)
+
+---
+
 ## Business Recommendation
 
 The treatment significantly improved the conversion rate without negatively affecting user engagement metrics such as page views and time spent.
@@ -126,7 +168,7 @@ It is also recommended to continue monitoring conversion rate and guardrail metr
 
 ## Project Structure
 
-```
+```text
 ab-testing-website-experiment/
 │
 ├── data/
@@ -136,6 +178,11 @@ ab-testing-website-experiment/
 │   └── AB_Testing_Analysis.ipynb
 │
 ├── images/
+│   ├── conversion_rate.png
+│   ├── time_spent.png
+│   ├── page_views.png
+│   ├── device_distribution.png
+│   └── location_distribution.png
 │
 ├── README.md
 ├── requirements.txt
@@ -159,7 +206,7 @@ pip install -r requirements.txt
 
 Launch Jupyter Notebook and open:
 
-```
+```text
 notebooks/AB_Testing_Analysis.ipynb
 ```
 
